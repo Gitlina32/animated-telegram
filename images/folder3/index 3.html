@@ -1,0 +1,85 @@
+<!DOCTYPE	html>
+<html>
+	<head>
+		<title>
+			Мой первый сайт
+		</title>
+		<meta	charset="utf-8">
+		<style>
+		td,th {border:1px solid red;}
+		table{border:1px solid red;border-collapse:collapse;width:60%;margin:auto;}
+		
+		table.tb2	td{border:5px solid blue;}
+		table.tb2 {border:5px solid blue;border-collapse:collapse;width:60%;margin:auto;float:left;}
+		
+		table.tb3	td{border:5px solid yellow;}
+		table.tb3 {border:5px solid yellow;border-collapse:collapse;width:60%;margin:auto;}
+		
+		//Комментарий
+		
+		/*Комментарий
+		Комментарий*/
+		</style>
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="manifest" href="site.webmanifest">
+	</head>
+	<body>
+		
+<table>
+<caption>Заголовок таблицы
+</caption>
+		<tr> 	<th> Ячейка 1</th>
+				<th>Ячейка 2 </th>
+		</tr>
+		<tr>
+				<td>Ячейка 3 </td>
+				<td>Ячейка 4 </td>
+			</tr>
+	<p>
+<table class="tb3">
+	
+		<tr> 	<td> Ячейка 1</td>
+				<td>Ячейка 2 </td>
+		</tr>
+		<tr>
+				<td>Ячейка 3 </td>
+				<td>Ячейка 4 </td>
+			</tr>
+			</p>
+			</table>
+	
+	<p>
+		<!--Таблица с объединением ячеек-->
+		<table class="tb2">
+		<tr>
+		<td colspan="5">1</td>
+		</tr>
+		<tr>
+		<td rowspan="3">2</td>
+		<td colspan="2">3</td>
+		<td colspan="2">4</td>
+		</tr>
+		<tr>
+		<td rowspan="2">5</td>
+		<td>6</td>
+		<td>7</td>
+		<td>8</td>
+		</tr>
+		<tr>
+		<td colspan="3">9</td>
+	</tr>	
+		</p>
+		</table>
+		<img src="../../images/1.jpeg" alt="цветочек" style="display:block;margin:auto;height:200px;">
+		<marquee direction="right" loop="5" scrollamount="50"><img src="../../images/1.jpeg" style="width:50px;"></marquee>
+
+<p style="clear:left">
+<a href="../../index.html">index</a>
+</p>
+<p>
+<a href="../index2.html #z2">index2</a>
+</p>
+	</body>
+</html>
